@@ -40,25 +40,6 @@ int main(){
                 } );
         });
 
-    /*
-    for( size_t i{ 0 }; i < ( input_numbers_vec.size() - 2 ); ++i ){
-        for( size_t j{ i + 1 }; j < ( input_numbers_vec.size() - 1 ); ++j ){
-            for( size_t k{ j + 1}; k < input_numbers_vec; ++k ){
-                if( ( input_numbers_vec.at( i ) + input_numbers_vec.at( j ) ) == 2020 ){
-                    factor_one = input_numbers_vec.at( i );
-                    factor_two = input_numbers_vec.at( j );
-                    factor_three = input_numbers_vec.at( k );
-                    stop = true;
-                    break;
-            }
-            if( stop )
-                break;
-        }
-
-        if( stop )
-            break;
-    }*/
-
 
     std::cout << "The three factors that sum 2020 are: " << factor_one << ", " << factor_two << " and " << factor_three << "\n";
     std::cout << "The product of these two factors is: " << factor_one * factor_two *factor_three << "\n";
