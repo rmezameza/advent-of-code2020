@@ -1,13 +1,5 @@
-
-Day1/day1_1
-Day1/input_numbers.txt
-Day1/day1_2
+# Input text-files
 *.txt
-Day2/day2_2
-Day2/day2_1
+
+# Visual Studio Code .json config settings
 *.json
-Day3/day3_1
-Day3/day3_2
-Day4/day4_1
-Day5/day5_1
-Day5/day5_2
